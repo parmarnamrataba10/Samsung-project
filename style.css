@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0A0A0A;
+    color: white;
+}
+
+.nav-item a{
+    color: grey;
+}
+.nav-item :hover{
+    color:black;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.carousel-inner img{
+    height: 850px;
+    width: 100%;
+    object-fit:cover;
+}
