@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #0A0A0A;
+    background-color:#0A0A0A;
     color: white;
 }
 
@@ -20,4 +20,15 @@ body{
     height: 850px;
     width: 100%;
     object-fit:cover;
+}
+.shop-card{
+    background-color: #252424e7;
+    color: white;
+    border-radius: 1rem;
+    transition: 1s scale(1.1);
+    
+}
+.shop-card:hover{
+    border-color:#00B0FF;
+    scale:1.1;
 }
