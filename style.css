@@ -32,3 +32,21 @@ body{
     border-color:#00B0FF;
     scale:1.1;
 }
+#Products{
+    background-color:#111111;
+}
+.product-card{
+    border-radius: 1rem;
+    background-color: #1A1A1A;
+    color: white;
+}
+.card-img-top-watch{
+    height: 30vh;
+}
+.card-img-top-buds{
+    height:35vh ;
+}
+.price{
+    font-size:1.5vh;
+    color: green;
+}
