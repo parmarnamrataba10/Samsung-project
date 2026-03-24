@@ -39,14 +39,29 @@ body{
     border-radius: 1rem;
     background-color: #1A1A1A;
     color: white;
+    
 }
-.card-img-top-watch{
-    height: 30vh;
+
+.btn{
+    float: right;
 }
-.card-img-top-buds{
-    height:35vh ;
-}
+
+ .card img{
+    height:38vh;
+    width: 19rem;
+    margin-left: 5rem;
+    
+ }
 .price{
     font-size:1.5vh;
     color: green;
+}
+.container-blue{
+    background-color: #1428A0;
+    height: 25rem;
+}
+.ai{
+    height: 2.5rem;
+width: 12rem;
+
 }
