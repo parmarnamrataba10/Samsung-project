@@ -64,4 +64,10 @@ body{
     height: 2.5rem;
 width: 12rem;
 
+
+}
+.accordion-item,.accordion-button {
+    background-color: #1A1A1A;
+    color: white;
+    gap: 2rem;
 }
