@@ -1,90 +1,98 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color:#0A0A0A;
-    color: white;
-}
-
-.nav-item a{
-    color: grey;
-}
-.nav-item :hover{
-    color:black;
-    background-color: whitesmoke;
-    border-radius: 5px;
-}
-.carousel-inner img{
-   max-height: 850px;
-   min-width: 100%;
-     /* max-height: 90vh;
-  min-width: 100%; */
-    object-fit:cover;
-}
-.shop-card{
-    background-color: #252424e7;
-    color: white;
-    border-radius: 1rem;
-    transition: 1s scale(1.1);
-    
-}
-.shop-card:hover{
-    border-color:#00B0FF;
-    scale:1.1;
-}
-#Products{
-    background-color:#111111;
-}
-.product-card{
-    border-radius: 1rem;
-    background-color: #1A1A1A;
-    color: white;
-    
+body {
+  background-color: #0a0a0a;
+  color: white;
+  overflow-x: hidden;
 }
 
-.btn{
-    float: right;
+.nav-item a {
+  color: grey;
+}
+.nav-item :hover {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.carousel-item img {
+  max-height: 90vh;
+  min-width: 100%;
+  object-fit: cover;
+}
+.card-body-item{
+  height: 25vh;
+  width: 20vh;
+}
+.shop-card {
+  background-color: #252424e7;
+  color: white;
+  border-radius: 1rem;
+  transition: 1s scale(1.1);
+}
+.shop-card:hover {
+  border-color: #00b0ff;
+  scale: 1.1;
+}
+#Products {
+  background-color: #111111;
+}
+.product-card {
+  border-radius: 1rem;
+  background-color: #1a1a1a;
+  color: white;
 }
 
- .card img{
-    height:38vh;
-    /* width:rem; */
-    object-fit: contain;
-    /* margin-left: 5rem; */
-    
- }
-.price{
-    font-size:1.5vh;
-    color: green;
-}
-.container-blue{
-    background-color: #1428A0;
-    height: 25rem;
-}
-.ai{
-    height: 2.5rem;
-width: 12rem;
+/* .tv-image{
+    height: 600px;
+} */
 
-
+.btn {
+  float: right;
 }
 
-.accordion-item,.accordion-button {
-    background-color: #1A1A1A;
-    color: white;
-    gap: 2rem;
+.card img {
+  height: 38vh;
+  /* width:rem; */
+  object-fit: contain;
+  /* margin-left: 5rem; */
 }
-.accordion-button{
-    height: 7vh;
-    color: white;
+.price {
+  font-size: 1.5vh;
+  color: green;
 }
-#faq{
-    background-color:#111111 ;
+.container-blue {
+  background-color: #1428a0;
+  height: 25rem;
 }
-.icon{
-    font-size:3.5vh;
+.ai {
+  height: 2.5rem;
+  width: 12rem;
+}
+
+.accordion-item,
+.accordion-button {
+  background-color: #1a1a1a;
+  color: white;
+}
+.accordion-button {
+  height: 7vh;
+  color: white;
+  border-radius: 2.5rem;
+  border-color: white;
+}
+.accordion-button:not(.collapse) {
+  background-color: #111111;
+
+}
+#faq {
+  background-color: #111111;
+}
+.icon {
+  font-size: 3.5vh;
 }
 .footer-list {
-    list-style: none;
+  list-style: none;
 }
